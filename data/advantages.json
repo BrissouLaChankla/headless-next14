@@ -1,0 +1,32 @@
+[
+    {
+        "icon":"coffee",
+        "title":"Améliore l'énergie",
+        "content":"Le café peut aider à augmenter les niveaux d'énergie et à améliorer la concentration grâce à la caféine qu'il contient."
+    },
+    {
+        "icon":"brain",
+        "title":"Booste la fonction cognitive",
+        "content":"La consommation de café est associée à une amélioration des fonctions cognitives, ce qui peut augmenter la mémoire et l'alertesse."
+    },
+    {
+        "icon":"heart",
+        "title":"Protection cardiaque",
+        "content":"Des études montrent que boire du café modérément peut réduire le risque de maladies cardiaques."
+    },
+    {
+        "icon":"antioxidant",
+        "title":"Riche en antioxydants",
+        "content":"Le café est une excellente source d'antioxydants, qui peuvent aider à combattre les radicaux libres dans le corps."
+    },
+    {
+        "icon":"fitness",
+        "title":"Aide à la perte de poids",
+        "content":"La caféine peut aider à stimuler le métabolisme et à favoriser la perte de poids."
+    },
+    {
+        "icon":"happy-face",
+        "title":"Améliore l'humeur",
+        "content":"Boire du café peut améliorer l'humeur et aider à combattre la dépression."
+    }
+]

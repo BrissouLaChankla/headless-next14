@@ -1,0 +1,39 @@
+.article {
+
+    p {
+
+        max-width: 100%;
+    }
+
+    ul {
+        display: flex;
+        gap: 10px;
+        padding-top: 30px;
+        flex-wrap: wrap;
+        li {
+            height: 100%;
+        }
+    }
+
+    h1, h2 {
+
+        line-height: .8;
+
+        padding: 50px 0 40px 0;
+
+        span {
+            text-decoration: none !important;
+            font-size: 3rem;
+        }
+
+    }
+
+
+    .tiled-gallery__row {
+        display: none !important;
+    }
+
+    img {
+        max-width: 400px;
+    }
+}
