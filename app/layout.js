@@ -5,7 +5,7 @@ import Footer from "@/components/sections/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "QuotiCoffee - Votre Guide Ultime du Café 🧋",
+  title: "Qoffee - Votre Guide Ultime du Café 🧋",
   description: "Explorez l'univers du café avec Cafés Quotidiens ! Découvrez des astuces de préparation expertes, des critiques de machines et de grains de café, et plongez dans nos recettes exclusives de café.",
 };
 
