@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Hero() {
     return (
         <div className="md:mt-36 grid grid-cols-12 gap-4">
-            <div className="col-span-12 md:col-span-5 relative md:order-1  min-h-72">
+            <div className="col-span-12 md:col-span-5 relative md:order-1  min-h-64">
                 <img src="/hero/illu.webp" fill className="object-contain" alt="Illustration hero banner" />
             </div>
             <div className="col-span-12 md:col-span-7 flex flex-col gap-6">
