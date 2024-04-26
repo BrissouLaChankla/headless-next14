@@ -8,12 +8,10 @@ export default async function Logos() {
     const files = await readdir(directoryPath);
 
     return (
-        <div className="my-20">
-            <ul>
+        <div className="my-20 flex gap-4 justify-evenly brightness-0 flex-wrap">
                 {files.map(file => (
-                    <li key={file}>{file}</li>
+                    <img key={file} src={`/icons/${file}`} className='w-1/8 sm:w-10' width={50} height={50} />
                 ))}
-            </ul>
         </div>
     )
 }

@@ -8,8 +8,6 @@ export default async function page({ params }) {
 
     const responseImg = await fetch(`${process.env.SCRAP_WP}/wp-json/wp/v2/media/${article.featured_media}`)
     const image = await responseImg.json();
-    console.log()
-
 
 
     return (

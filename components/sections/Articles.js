@@ -10,9 +10,9 @@ export default async function Articles() {
     
     return (
         <div className="mt-36">
-        <Titlesub title="Nos derniers Articles" sub="On adore le café et on adore vous en parler" classes="text-center" />
+        <Titlesub title="Nos derniers Articles" sub="On adore le café et on adore vous en parler" classes="text-center flex flex-col items-center" />
         <div className="grid grid-cols-12 gap-8 mt-16 ">
-            {articlesData.map((el, i) => <Article {...el} classes="col-span-4" key={i} />)}
+            {articlesData.map((el, i) => <Article {...el} classes="col-span-12 sm:col-span-6 md:col-span-4" key={i} />)}
         </div>
         </div>
     )
