@@ -5,7 +5,7 @@ export default function Advantage({ title, icon, content, classes }) {
     <div className={`${classes} flex flex-col md:flex-row items-start  gap-4`}>
       <div>
         <div className="bg-black p-2 rounded-full">
-          <Image src={`/icons/${icon}.svg`} className="invert min-w-4" width={20} height={20} alt={`Icon ${icon}`} />
+          <img src={`/icons/${icon}.svg`} className="invert min-w-4" width={20} height={20} alt={`Icon ${icon}`} />
         </div>
       </div>
       <div className="flex flex-col gap-2">
